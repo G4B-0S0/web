@@ -1,0 +1,10 @@
+{
+    "name": "gabo/web",
+    "description": "Proyecto de aprendizaje haciendo uso de php composer - GitHub - y despliegue en vercel",
+    "autoload": {
+        "psr-4": {
+            "Gabo\\Web\\": "src/"
+        }
+    },
+    "require": {}
+}
