@@ -9,17 +9,17 @@
 
         {
           "src": "/(css|js)/(.*)",
-          "dest": "/public/$1/$2"
+          "dest": "public/$1/$2"
         },
 
         {
           "src": "/images/(.*)",
-          "dest": "/public/images/$1"
+          "dest": "public/images/$1"
         },
 
         {
           "src": "/(.*)",
-          "dest": "/public/index.php"
+          "dest": "public/index.php"
         }
 
     ]
