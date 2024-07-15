@@ -1,17 +1,21 @@
 {
-    "functions": {
-
-        "api/index.php": { "runtime": "vercel-php@0.7.1" }
-
+  "functions": {
+    "api/index.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  },
+  "routes": [
+    {
+      "src": "/js/(._)",
+      "dest": "src/js/$1"
     },
-
-    "routes": [
-
-        {
-          "src": "/(.*)",
-          "dest": "api/index.php"
-        }
-
-    ]
-
-  }
+    {
+      "src": "/css/(._)",
+      "dest": "src/css/$1"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "api/index.php"
+    }
+  ]
+}
