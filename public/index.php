@@ -1,5 +1,5 @@
 <?php
-define('BASE_URL', '/public');
+// define('BASE_URL', '/public');
 ?>
 
 
@@ -9,7 +9,7 @@ define('BASE_URL', '/public');
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="<?php echo BASE_URL; ?>/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
 <h1><?php echo 'Hola Mundo'; ?></h1>
